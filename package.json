@@ -1,0 +1,22 @@
+{
+  "name": "jpkiot",
+  "version": "1.0.0",
+  "description": "showcase my projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpkiot/jpkiot_website.git"
+  },
+  "author": "Jay Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpkiot/jpkiot_website/issues"
+  },
+  "homepage": "https://github.com/jpkiot/jpkiot_website#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
