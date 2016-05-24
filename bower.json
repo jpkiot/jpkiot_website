@@ -1,0 +1,24 @@
+{
+  "name": "jpkiot",
+  "description": "showcase my projects",
+  "main": "app.js",
+  "authors": [
+    "Jay Kelly"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "1.5.0",
+    "angular-bootstrap": "^1.3.3",
+    "angular-route": "^1.5.5"
+  }
+}
