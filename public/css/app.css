@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+
+.navbar {
+    background-color: red;
+}
+
+.social {
+    margin-left: 10px;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+.project img {
+    max-width: 1140px;
+    height: auto;
+}

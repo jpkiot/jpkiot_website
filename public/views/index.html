@@ -7,6 +7,10 @@
         
         <!- load bootstrap -->
         <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../css/font-awesome-4.6.3/css/font-awesome.css">
+        <link rel="stylesheet" href="../css/bootstrap-social-gh-pages/bootstrap-social.css">
+        <link rel="stylesheet" href="../css/google-code-prettify/src/prettify.css">
+        <link rel="stylesheet" href="../css/app.css">
     </head>
     <body>
         <header>
@@ -18,13 +22,13 @@
                 
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#/"><i class="fa fa-home"></i>Home</a> </li>
-                        <li class="#"><a href="#/projects">Projects</a> </li>
-                        <li><a href="#/about"><i class="fa fa-home"></i>About</a> </li>
+                        <li><a href="#/projects" class="fa">Projects</a> </li>
+                        <li><a href="#/about"><i class="fa"></i>About</a> </li>
                     </ul>
                 </div>
             </nav>
         </header>
-        
+      
         <div class="container">
             <div ng-view>
             
@@ -34,6 +38,7 @@
     <script src="../../bower_components/angular/angular.js"></script>
     <script src="../../bower_components/angular-route/angular-route.js"></script>
     <script src="../../bower_components/angular-bootstrap/ui-bootstrap-tpls.js" ></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <script src="../js/app.js" ></script>
     </body>
 </html>
