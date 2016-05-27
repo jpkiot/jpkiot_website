@@ -19,6 +19,7 @@ app.config(function($routeProvider) {
 })
 
 app.controller('homeController', ['$scope', function($scope) {
+    $scope.class = "main";
     
 }]);
 
