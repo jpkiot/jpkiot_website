@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jpkiot/jpkiot_website#readme",
   "dependencies": {
+    "ejs": "^2.4.2",
     "express": "^4.13.4"
   }
 }

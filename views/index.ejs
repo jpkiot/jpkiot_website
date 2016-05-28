@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-uk" ng-app="app">
+    <head>
+        <title>JPKIOT</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8">
+        
+        <!- load bootstrap -->
+        <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../css/font-awesome-4.6.3/css/font-awesome.css">
+        <link rel="stylesheet" href="../css/bootstrap-social-gh-pages/bootstrap-social.css">
+        <link rel="stylesheet" href="../css/google-code-prettify/src/prettify.css">
+        <link rel="stylesheet" href="../css/app.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header navbar-left">
+                        <a class="navbar-brand" href="#/"><img src="../images/engineering.png"></a>
+                        <a class="navbar-brand" href="#/">JPKIOT</a>
+                    </div>
+                
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#/"><i class="fa fa-home"></i>Home</a> </li>
+                        <li><a href="#/projects" class="fa">Projects</a> </li>
+                        <li><a href="#/about"><i class="fa"></i>About</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+      
+            <div ng-view ng-class="class">
+            
+            </div>
+        
+    <script src="../../bower_components/angular/angular.js"></script>
+    <script src="../../bower_components/angular-route/angular-route.js"></script>
+    <script src="../../bower_components/angular-bootstrap/ui-bootstrap-tpls.js" ></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="../js/app.js" ></script>
+    </body>
+</html>
